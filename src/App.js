@@ -14,6 +14,7 @@ function App() {
   return (
     <Fragment>
       <Header/>
+      <h1>this is prateek in aws</h1>
       {!isAuth && <Auth />}
       {isAuth && <UserProfile />}
       <Counter />
